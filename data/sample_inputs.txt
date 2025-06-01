@@ -1,0 +1,49 @@
+# Sample Mini-Redis Commands for Testing
+# Use these commands to test the cache functionality
+
+# Basic SET and GET operations
+SET user:1001 john
+SET user:1002 jane
+SET user:1003 bob
+GET user:1001
+GET user:1002
+GET user:1004
+
+# SET with TTL (Time To Live)
+SET session:abc123 active 30
+SET temp:data temporary 10
+GET session:abc123
+GET temp:data
+
+# EXISTS command
+EXISTS user:1001
+EXISTS user:1004
+EXISTS session:abc123
+
+# EXPIRE command
+SET permanent:key permanent_value
+EXPIRE permanent:key 60
+EXISTS permanent:key
+
+# DELETE operations
+DELETE user:1003
+GET user:1003
+EXISTS user:1003
+
+# Multiple operations for performance testing
+SET perf:1 value1
+SET perf:2 value2
+SET perf:3 value3
+GET perf:1
+GET perf:2
+GET perf:3
+
+# Cache statistics
+STATS
+
+# Clear everything
+FLUSH
+STATS
+
+# Exit
+QUIT

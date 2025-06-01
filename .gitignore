@@ -1,0 +1,25 @@
+# Build files
+*.o
+*.exe
+mini-redis
+test_cache
+test_lru
+obj/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+tmp/
+temp/
