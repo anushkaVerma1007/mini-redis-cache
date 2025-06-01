@@ -19,7 +19,7 @@ A high-performance, in-memory cache system implemented in C++ that mimics core R
 - **Memory Management** - Automatic eviction when memory limits exceeded
 - **Performance Metrics** - Real-time statistics and throughput monitoring
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
