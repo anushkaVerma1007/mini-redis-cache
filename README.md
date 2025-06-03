@@ -47,7 +47,7 @@ A high-performance, in-memory cache system implemented in C++ that mimics core R
 ### Quick Start
 ```bash
 # Clone and build
-git clone <repository-url>
+git clone https://github.com/anushkaVerma1007/mini-redis-cache.git
 cd mini-redis-cache
 make
 
@@ -179,7 +179,9 @@ make test
 ## 🤝 Contributing
 
 1.Fork & clone
+
 2.git checkout -b feature/new-feature
+
 3.Commit & PR
 
 ---
