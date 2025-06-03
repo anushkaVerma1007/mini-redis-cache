@@ -61,14 +61,6 @@ make test
 make perf
 ```
 
-### Build Options
-```bash
-make debug    # Debug build with symbols
-make release  # Optimized release build
-make clean    # Clean build files
-make install  # Install to system PATH
-```
-
 ## 💻 Usage Examples
 
 ### Interactive CLI
@@ -147,12 +139,6 @@ make test
   - LRU operations: O(1)
   - TTL cleanup: O(log n)
 
-### Scalability
-- Supports millions of keys (memory dependent)
-- Automatic hash table resizing
-- Efficient memory usage tracking
-- Background expiration cleanup
-
 ## 🔧 Technical Implementation
 
 ### Data Structures Used
@@ -182,33 +168,19 @@ make test
 - **TTL Expiration**: Lazy deletion + periodic cleanup
 - **Memory Eviction**: LRU-based with memory pressure detection
 
-## 🎯 Educational Value
-
-This project demonstrates mastery of:
-- **Data Structures**: Hash tables, linked lists, heaps
-- **Algorithms**: Hashing, LRU, heap operations
-- **Systems Programming**: Memory management, performance optimization
-- **Software Design**: Modular architecture, clean interfaces
-- **C++ Advanced Features**: STL containers, smart pointers, RAII
-
 ## 📈 Future Enhancements
 
 ### Phase 2 Potential Features
-- [ ] Persistence (disk storage)
-- [ ] Network protocol (TCP/Redis protocol)
-- [ ] Data types (lists, sets, sorted sets)
-- [ ] Transactions and pipelining
-- [ ] Configuration file support
-- [ ] Logging and monitoring
-- [ ] Clustering support
+- [ ] Persistence to disk
+- [ ] TCP support (Redis protocol)
+- [ ] Redis-like data types
+- [ ] Logging, config, clustering
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open Pull Request
+1.Fork & clone
+2.git checkout -b feature/new-feature
+3.Commit & PR
 
 ---
 
