@@ -170,7 +170,7 @@ make test
 
 ## 📈 Future Enhancements
 
-### Phase 2 Potential Features
+### Potential Features
 - [ ] Persistence to disk
 - [ ] TCP support (Redis protocol)
 - [ ] Redis-like data types
