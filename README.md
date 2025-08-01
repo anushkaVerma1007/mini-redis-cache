@@ -132,7 +132,6 @@ make test
 ## 📊 Performance
 
 ### Benchmarks
-- **Throughput**: 100,000+ operations/second
 - **Memory Efficiency**: O(1) space per key-value pair
 - **Time Complexity**:
   - SET/GET/DELETE: O(1) average case
